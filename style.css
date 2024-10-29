@@ -16,6 +16,24 @@ header{
     z-index:1000;
 }
 
+/* スマートフォン用のスタイル */
+@media (max-width: 768px) {
+    body {
+        width: 95%;
+        padding: 10px;
+    }
+
+    header {
+        width: 100%;
+        max-width: none;
+    }
+
+    img {
+    max-width: 100%;
+    height: auto;
+    }
+}
+
 
 
 .title{
